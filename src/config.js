@@ -1,5 +1,5 @@
 const myConfig = {
-  Backend: "http://localhost:5000",
+  Backend: "https://wasla-backend.herokuapp.com",
   app: {
       server: 'localhost',
       port: 3000
