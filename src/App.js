@@ -5,7 +5,8 @@ import RuleEngine from "./components/RuleEngine";
 import Home from "./components/Home";
 import RuleEngineCondition from "./components/RuleEngineCondition";
 import RuleEngineActions from "./components/RuleEngineActions";
-import Customers from './components/Customers'
+import Customers from './components/Customers';
+import EngineExecutions from "./components/EngineExecutions";
 import "./App.css";
 import "./css/bootstrap.css";
 
@@ -22,6 +23,7 @@ class App extends React.Component {
               <Route path="/customers" component={Customers} />
               <Route path="/ruleconditions" component={RuleEngineCondition} />
               <Route path="/ruleactions" component={RuleEngineActions} />
+              <Route path='/engineExecs' component={EngineExecutions}/>
               <Redirect from="/" exact to="/home" />
               <Redirect to="/notFound" />
             </Switch>
