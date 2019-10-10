@@ -154,6 +154,7 @@ export default class AddRule extends Component {
 
     saveRule = (e) => {
         e.preventDefault();
+        const backend = myConfig.Backend;
         //console.log(this.state.thisRule);
         var newRule = this.state.thisRule;
 
