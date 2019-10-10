@@ -20,7 +20,7 @@ function Header() {
                 <Link className="nav-item nav-link" to="/engineExecs">Engine Executions</Link>
                 </li>
               </ul>
-              <form className="form-inline my-2 my-lg-0 float-right">
+              <form className="form-inline my-2 my-lg-0 float-right d-none">
                 <Link className="nav-item nav-link text-light" to="/settings">Settings</Link>
               </form>
             </div>
