@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import RuleBaseConfig from '../config'
+import myConfig from '../config'
 
 export default class AddRule extends Component {
     state={
