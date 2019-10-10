@@ -157,7 +157,7 @@ export default class AddRule extends Component {
         //console.log(this.state.thisRule);
         var newRule = this.state.thisRule;
 
-        fetch('http://localhost:5000/rules', {
+        fetch(`${backend}/rules`, {
         method: 'POST',
         headers: {
             Accept: 'application/json',
