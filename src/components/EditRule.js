@@ -145,6 +145,7 @@ export default class EditRule extends Component {
 
     saveRule = (e) => {
         e.preventDefault();
+        const backend = myConfig.Backend;
         //console.log(this.state.thisRule);
         var newRule = this.state.thisRule;
         //console.log(newRule)
