@@ -148,7 +148,7 @@ export default class EditRule extends Component {
         //console.log(this.state.thisRule);
         var newRule = this.state.thisRule;
         //console.log(newRule)
-        fetch('http://localhost:5000/rules', {
+        fetch(`${backend}/rules`, {
         method: 'PATCH',
         headers: {
             Accept: 'application/json',
