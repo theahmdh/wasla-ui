@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import myConfig from '../config'
+import RuleBaseConfig from '../config'
 
 export default class EditRule extends Component {
     constructor(props) {
@@ -145,7 +145,7 @@ export default class EditRule extends Component {
 
     saveRule = (e) => {
         e.preventDefault();
-        const backend = myConfig.Backend;
+        const backend = RuleBaseConfig.Backend;
         //console.log(this.state.thisRule);
         var newRule = this.state.thisRule;
         //console.log(newRule)
